@@ -80,6 +80,7 @@ ul.posts {
 
 ul.papers-list {
   color: #aaa;
+  font-size: 80%;
   list-style-type: none;
   margin-bottom: 2em;
 }
@@ -90,8 +91,8 @@ ul.papers-list {
 
   ul.papers-list span {
     color: #000;
+    font-size: 100%;
     font-family: Monaco, "Courier New", monospace;
-    font-size: 80%;
   }
 
 /*****************************************************************************/
