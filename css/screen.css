@@ -79,6 +79,7 @@ ul.posts {
 /*****************************************************************************/
 
 ul.papers-list {
+  color: #aaa;
   list-style-type: none;
   margin-bottom: 2em;
 }
@@ -88,7 +89,7 @@ ul.papers-list {
   }
 
   ul.papers-list span {
-    color: #aaa;
+    color: #000;
     font-family: Monaco, "Courier New", monospace;
     font-size: 80%;
   }
