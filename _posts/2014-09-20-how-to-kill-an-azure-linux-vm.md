@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How To Kill An Azure Linux VM in 1 second.
+tags: [linux, xen, azure]
 ---
 
 {{ page.title }}
@@ -8,7 +9,7 @@ title: How To Kill An Azure Linux VM in 1 second.
 
 <p class="meta">20 September 2014 - Seattle</p>
 
-It's super easy, just try to install the Xen HyperVisor:
+It's super easy, just try to install the Xen HyperVisor on the Ubuntu 14.0 Image.
 
 {% highlight tcsh tabsize=4 %}
 
@@ -17,4 +18,4 @@ reboot
 
 {% endhighlight %}
 
-The machine will never come up, as it will hang on boot :).
+The machine will never come up, as it will be hung on boot.
