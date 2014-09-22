@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How To Kill An Azure Linux VM in 1 second.
+title: How To Kill An Azure Linux VM in One Second
 tags: [linux, xen, azure]
 ---
 
@@ -19,3 +19,5 @@ $ reboot
 {% endhighlight %}
 
 The machine will never come up, as it will be hung on boot.
+
+This appears to stem from the fact that [Hyper-V](http://en.wikipedia.org/wiki/Hyper-V) does not support nesting [Hypervisors](http://en.wikipedia.org/wiki/Hypervisor).
