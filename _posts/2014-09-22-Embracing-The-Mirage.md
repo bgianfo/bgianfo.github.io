@@ -2,7 +2,6 @@
 layout: post
 title: Embracing The Mirage [Part One]
 tags: [openmirage, unikernels, learning, ocaml]
-category: systems
 ---
 
 {{ page.title }}
@@ -13,12 +12,12 @@ category: systems
 As of late I have become increasingly enamored with this great research project [Mirage OS](http://www.openmirage.org/).
 The team is building a library operating system, they use the term [unikernel](http://anil.recoil.org/papers/2013-asplos-mirage.pdf).
 In essence this means that you write the code for your system, and at compilation time the system builds you an image which you can then
-deploy to a [hypervisor](http://en.wikipedia.org/wiki/Hypervisor) running on bare metal. This image is then run virtualized, entirely on it's own.
+deploy to a [hypervisor](http://en.wikipedia.org/wiki/Hypervisor) running on bare metal. This image is then run virtualized, entirely on its own.
 No operating system is needed to host your application, resulting the ability to better utilize cloud resources (less overhead) and much better isolation
-guarantee's due to VM [sandboxing](<http://en.wikipedia.org/wiki/Sandbox_(computer_security)>) which is inherit in virtualized environments.
+guarantees due to VM [sandboxing](<http://en.wikipedia.org/wiki/Sandbox_(computer_security)>) which is inherit in virtualized environments.
 
-Besides the promises of isolation, and efficiency I'm also interested in the project because of their choice of language for implementing their
-library OS. They have chosen to use [OCaml](https://ocaml.org/) language, for the uninitiated OCaml is an awesome language, it has inspired tons of other
+Besides the promises of isolation and efficiency, I'm also interested in the project because of the team's choice of language for implementing their
+library OS. They have chosen to use the [OCaml](https://ocaml.org/) language, for the uninitiated OCaml is an awesome language. It has inspired tons of other
 languages that you might use everyday. OCaml has an great type system, which allows for quite in depth static analysis to be performed during compilation.
 It has full support for functional, imperative, and object oriented programming styles.
 
