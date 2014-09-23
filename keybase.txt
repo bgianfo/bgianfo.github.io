@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/bjg
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://bjg.io
+  * I am bjg (https://keybase.io/bjg) on keybase.
+  * I have a public key with fingerprint 87AB AC73 F013 D2B4 AE80  D15E B291 6849 8721 F127
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "87abac73f013d2b4ae80d15eb29168498721f127",
+            "host": "keybase.io",
+            "key_id": "b29168498721f127",
+            "uid": "4c3a46b596846363a55d05a05d268e00",
+            "username": "bjg"
+        },
+        "service": {
+            "hostname": "bjg.io",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1411499062,
+    "expire_in": 157680000,
+    "prev": "e1db068286cc6c15967f12adcf03ec58ef839d285dbb0851fac43ecf1b93830a",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v1.0.5
+Comment: https://keybase.io/crypto
+
+yMHXAnicbVFbSBRRGF7dtYslWQnWIoVHtFqXmvutTAwRIyOWDMysZS5n1lGbmXZn
+vSBWL16QTHoSs6SgpzBNibAoXEWCjLDSCiuLSMQk6EJpimJnrOil83I43+3/P85g
+nNMRG9UQPdpDTLnnox5FJsOO/ORBphpIhlIFhGpQCpcvVdMDMGgGNd0CAuBYURJl
+llQxnFQIiRIhhyk4DSWCxxmO4jmWwFWcYIEXFBsh24FiJDEEd2oGwtDDrykI/Y8+
+vExQMilSjETziGVIhhRpWsFoEaMVguEghtnCEAzq4klox5QEQI0XIKBck6G9rj31
+H/l7qhk0LEM2yhBWbFmmYFusKtPWVEDJ/8ftlzRdQWWRoRwGQ5qhAwFHStnS7Dic
+wnGK5zGG8AJYaWpB6NdsBc0yHIaOPQaWo0iIKxLGcATHyDIj46gJixqKiqxiJJRp
+DqocySsERyuShHE0rooyhQgVl3iSIzER2H1O6QYQKLSmGECRIS2gi1Y4CEHNQKTI
+5YiKdayIiba/yxG7Ov7vJ779tnLJN/4xfeu+gbORvqzhodnNzpxtLY1L9QcS3EJh
+b0HS97S4mYLu7T7Xhgdu7M5YnpEz3uUz9zZWTGZ4swbaj3nIhYTUIXC5yHmx9sen
+C3ez1xw+1zQ85r7/gi1se1i1W/T0H0/KGzlkdpZ6kvp0/GpLT9fTK3WvUkte+1al
+bEyVvSmbPOn0rnGr61ZmR+vwV1dmf72rsjmlzHP9S+H+G1Nhbe2etrTs5EyzNvHx
+0mLatZfx01LD55/rZh1Hc9YJ8XNPpNP3tsS1d7cefN58wrV+ImHO1fRhlkmM8e14
+M/8+d2Hm2fRN88jcYm70yO3OyktCzJmM/PO1dTO9zol3ox0R/hfGDwmA
+=x6F0
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bjg
+
+==================================================================
+
