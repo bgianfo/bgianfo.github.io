@@ -1,14 +1,12 @@
 ---
 layout: post
-title: Learning TLA+
-tags: ["distributed systems", "tla", "learning"]
+title: "Learning TLA+"
+modified: 2014-09-04
+excerpt: "Learning howto use TLA+ for software proofs."
+tags: ["distributed systems", "tla", "learning", "software verification"]
 category: systems
+comments: false
 ---
-
-{{ page.title }}
-================
-
-<p class="meta">4 September 2014 - Seattle</p>
 
 TLA+ is a formal specification language, geared towards designing concurrent and distributed systems.
 

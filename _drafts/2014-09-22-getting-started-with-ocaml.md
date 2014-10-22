@@ -1,14 +1,12 @@
 ---
 layout: post
 title: Getting started with OCaml
-tags: [learning, ocaml]
-category: systems
+modified: 2014-09-22
+excerpt: "We setup our windows environment to use ocaml."
+tags: ["learning", "ocaml", "functional programming"]
+category: pl
+comments: false
 ---
-
-{{ page.title }}
-================
-
-<p class="meta">22 September 2014 - Seattle</p>
 
 * Install cygwin (with gcc sub system, make, patch)
 * Install the Native Ocaml Port [http://protz.github.io/ocaml-installer/](http://protz.github.io/ocaml-installer/)
