@@ -2,7 +2,7 @@
 layout: post
 title: How To Kill An Azure Linux VM in One Second
 modified: 2014-09-20
-excerpt: "Jumping into the World of Unikernels."
+excerpt: "Fun with hypervisors."
 tags: [linux, xen, azure]
 category: virtualization
 ---
