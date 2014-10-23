@@ -11,15 +11,16 @@ In the past I've worked at [MIT Lincoln Labs](https://www.ll.mit.edu) on Weather
 
 ### Elsewhere
 * Email: [b.gianfo@gmail.com](mailto:b.gianfo@gmail.com)
-* [Twitter](http://twitter.com/realrbman) - Social
+* [Keybase](http://keybase.io/bjg) - Secure Communication
+* [Coinbase](http://coinbase.com/bjg) - Send Me Money!
 * [Hacker News](http://news.ycombinator.com/user?id=bjg) - News
+* [Reddit](http://reddit.com/u/realrbman) - News
+* [Twitter](http://twitter.com/realrbman) - Social
 * [Facebook](http://facebook.com/gianforcaro) - Social
 * [Google](http://plus.google.com/+BrianGianforcaro) - Social
-* [Keybase](http://keybase.io/bjg) - Secure Communication
+* [LinkedIn](http://linkedin.com/in/bgianf) - Social
 * [Last.fm](http://lastfm.com/user/realrbman) - Music
 * [StackOverflow](http://stackoverflow.com/users/3415/brian-gianforcaro) - Q/A
-* [LinkedIn](http://linkedin.com/in/bgianf) - Social
-* [Coinbase](http://coinbase.com/bjg) - Send Me Money!
 
 ### Resume
 My resume is availble either as a [PDF](/images/resume.pdf) or as [Latex Source](https://github.com/bgianfo/resume).
