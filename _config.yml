@@ -28,7 +28,7 @@ kramdown:
 owner:
   name: Brian Gianforcaro
   avatar: bio-photo.jpg
-  bio: "Software Engineer @ Microsoft."
+  bio: "Engineer @ Microsoft"
   email: b.gianfo@gmail.com
   disqus-shortname: 
   twitter: realrbman
@@ -41,9 +41,9 @@ owner:
     ad-slot: 
   bing-verify: 
   github: bgianfo
-  stackoverflow: http://stackoverflow.com/users/3415/brian-gianforcaro
+  stackoverflow: 3415/brian-gianforcaro
   linkedin: bgianf
-  instagram: bgianfo
+  instagram: #bgianfo
   lastfm: realrbman
   tumblr: #username
   pinterest: #username
