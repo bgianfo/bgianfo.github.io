@@ -8,3 +8,6 @@
 
 - title: About
   url: /about/
+
+- title: <i class="fa fa-rss"></i>
+  url: /feed.xml
