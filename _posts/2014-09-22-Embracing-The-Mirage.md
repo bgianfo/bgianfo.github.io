@@ -4,7 +4,7 @@ title: "Embracing The Mirage [Part One]"
 modified: 2014-10-20
 excerpt: "Jumping into the World of Unikernels."
 tags: [openmirage, unikernels, learning, ocaml]
-category: systems, mirage
+category: systems
 ---
 
 As of late I have become increasingly enamored with this great research project [Mirage OS](http://www.openmirage.org/).
