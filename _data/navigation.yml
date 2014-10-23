@@ -2,7 +2,6 @@
 
 - title: All Posts
   url: /posts/
-
 - title: Papers
   url: /papers/
 
@@ -10,4 +9,4 @@
   url: /about/
 
 - title: <i class="fa fa-rss"></i>
-  url: /feed.xml
+  url: http://feeds.feedburner.com/bjgio
