@@ -23,7 +23,9 @@ In the past I've worked at [MIT Lincoln Labs](https://www.ll.mit.edu) on Weather
 * [StackOverflow](http://stackoverflow.com/users/3415/brian-gianforcaro) - Q/A
 
 ### Resume
-My resume is availble either as a [PDF](/images/resume.pdf) or as [Latex Source](https://github.com/bgianfo/resume).
+My resume is available either as a [PDF](/images/resume.pdf) or as [Latex Source](https://github.com/bgianfo/resume).
+
+You can also view a version on my [Stack Overflow Careers Page](http://careers.stackoverflow.com/bg).
 
 ### Public Key
 
