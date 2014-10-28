@@ -6,7 +6,7 @@ modified: 2014-10-22
 comments: false
 ---
 My name is Brian Gianforcaro. I'm a Software Engineer in Seattle, Washington.
-I work for Microsoft on both their Box and Cloud Relational Database Products: [SQL Server](http://en.wikipedia.org/wiki/Microsoft_SQL_Server) & [SQL Azure](http://en.wikipedia.org/wiki/SQL_Azure).
+I work for Microsoft on both their Box and Cloud Relational Database Products: <i class="fa fa-database"></i> [SQL Server](http://en.wikipedia.org/wiki/Microsoft_SQL_Server) & <i class="fa fa-cloud"></i> [SQL Azure](http://en.wikipedia.org/wiki/SQL_Azure).
 In the past I've worked at [MIT Lincoln Labs](https://www.ll.mit.edu) on Weather Predictive software, as well as interning at IBM in the Lotus Software group.
 
 ### Elsewhere
