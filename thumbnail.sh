@@ -23,7 +23,7 @@ if ( is_file_exits "$1" )
 then
 	file=$1
 	destfilename=${file%.*}-thumb.png
-	convert -thumbnail 500 $file[0] $destfilename
+	convert -thumbnail x250 -background white -alpha remove $file[0] $destfilename
 else
  	echo "File not found: $1"
 	exit 1
