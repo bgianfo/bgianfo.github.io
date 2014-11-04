@@ -3,7 +3,7 @@ layout: post
 title: "Article: The Network is Reliable"
 excerpt: "We an awesome ACM article."
 tags: ["distributed systems", "link post", "article"]
-category: dystributed-systems
+category: distributed-systems
 link: http://queue.acm.org/detail.cfm?id=2655736
 comments: false
 ---
