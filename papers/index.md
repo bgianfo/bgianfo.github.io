@@ -20,7 +20,8 @@ tags: [pdf, papers, research, databases, distributed systems, links]
 * <span>Temporal features in SQL:2011 </span> <a href="http://www.sigmod.org/publications/sigmod-record/1209/pdfs/07.industry.kulkarni.pdf"><i class="fa fa-file-pdf-o"></i></a>
 * <span>Distributed/heterogeneous query processing in Microsoft SQL server </span><a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1410211&tag=1"><i class="fa fa-external-link"></i></a>
 
-# Papers I Want to Read
+#  Papers I Want to Read
+* <span>Human-powered Sorts and Joins</span> <a href="http://marcua.net/papers/qurk-vldb2012.pdf"><i class="fa fa-file-pdf-o"></i></a>
 * <span>(RAFT) In Search of an Understandable Consensus Algorithm </span> <a href="https://ramcloud.stanford.edu/raft.pdf"><i class="fa fa-file-pdf-o"></i></a>
 * <span>Anti-Caching: A New Approach to Database Management System Architecture </span> <a href="http://www.vldb.org/pvldb/vol6/p1942-debrabant.pdf"><i class="fa fa-file-pdf-o"></i></a>
 * <span>Rethinking Main Memory OLTP Recovery </span> <a href="http://hstore.cs.brown.edu/papers/voltdb-recovery.pdf"><i class="fa fa-file-pdf-o"></i></a>
