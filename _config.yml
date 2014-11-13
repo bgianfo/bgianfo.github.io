@@ -3,6 +3,7 @@
 title:            bjg.io
 locale:           en_US
 url:              http://bjg.io
+#url:              http://lilmama.cloudapp.net:4000
 
 
 # Jekyll configuration
@@ -36,7 +37,7 @@ owner:
   reddit: realrbman
   google:
     plus: BrianGianforcaro
-    analytics: 
+    analytics: UA-105771-3
     verify: 
     ad-client: 
     ad-slot: 
