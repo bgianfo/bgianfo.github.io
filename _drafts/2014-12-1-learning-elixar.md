@@ -21,9 +21,8 @@ comments: false
 
 
 ##Intro##
-Elixir has been on my radar for a year or so now, but I haven't had a chance to take a look.
-So I decided to sit down and try to hack out some code to see what it's like.
-
+Elixir has been on my radar for about a year now, however despite my best effort I haven't had a chance to take a thorough look yet.
+I decided i've been waiting long enough, I just need to sit down and try to hack out some code.
 If you haven't looked into the language yet it appears [very cool on paper][wiki-source]:
 
 > Elixir is a functional, concurrent, general-purpose programming language built atop the
@@ -39,7 +38,7 @@ I've actually looked into the Elixir syntax. So the rest of this post will be en
 unfiltered stream of consciousness.
 
 ##Trying Out Some Code##
-Lets see if we can use Elixir to solve the first problem on [Project Euler][pjeu].
+Lets see if we can use Elixir to solve the first problem on the [Project Euler][pjeu] site.
 
 > **Multiples of 3 and 5**:
 > If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
@@ -175,7 +174,7 @@ iex(13)> 1..999 |> Stream.filter(multiples) |> Enum.sum
 <redacted-from-article>
 {% endhighlight %}
 
-That wasn't so bad, I like the pipelining syntax. It's like the syntax used in ML based language, like F#/OCaml.
+That wasn't so bad, I like the pipelining syntax. It seems similiar to the syntax used in ML based language, like F#/OCaml.
 
 ## Resources ##
 If you are on board with Elixir and want to continue on your own Elixir journey there are a couple of really great resources
@@ -185,3 +184,4 @@ to continue exploring the language.
 - The 30 Days of Elixir [Repository][30-days]
 - Learning X in Y Minutes: [Where X = Elixir][learnx] 
 - The [Elixir Cheat Sheet][cheatsheet]
+
