@@ -2,8 +2,8 @@
 
 title:            bjg.io
 locale:           en_US
-url:              http://bjg.io
-#url:              http://lilmama.cloudapp.net:4000
+#url:              http://bjg.io
+url:              http://lilmama.cloudapp.net:4000
 
 
 # Jekyll configuration
