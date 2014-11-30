@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Learning Elixir"
-#modified: 2014-12-01
-excerpt: "We attempt to learn elixir."
+excerpt: "We attempt to start learning the  elixir language."
 tags: ["software", "elixar", "programming langauges"]
 comments: false
 ---
@@ -15,12 +14,17 @@ comments: false
 [wiki-source]: https://en.wikipedia.org/wiki/Elixir_(programming_language)
 [ex-inst]: http://elixir-lang.org/install.htm-lang.org
 [pjeu]: https://projecteuler.net
+[getting-started]: http://elixir-lang.org/getting_started/1.html
+[30-days]: https://github.com/seven1m/30-days-of-elixir
+[learnx]: http://learnxinyminutes.com/docs/elixir/
+[cheatsheet]: http://media.pragprog.com/titles/elixir/ElixirCheat.pdf
+
 
 ##Intro##
 Elixir has been on my radar for a year or so now, but I haven't had a chance to take a look.
 So I decided to sit down and try to hack out some code to see what it's like.
 
-If you haven't looked into the language it's [pretty cool on paper][wiki-source]:
+If you haven't looked into the language yet it appears [very cool on paper][wiki-source]:
 
 > Elixir is a functional, concurrent, general-purpose programming language built atop the
 > [Erlang Virtual Machine][beam-docs] (BEAM). Elixir builds on top of Erlang to provide distributed,
@@ -173,3 +177,11 @@ iex(13)> 1..999 |> Stream.filter(multiples) |> Enum.sum
 
 That wasn't so bad, I like the pipelining syntax. It's like the syntax used in ML based language, like F#/OCaml.
 
+## Resources ##
+If you are on board with Elixir and want to continue on your own Elixir journey there are a couple of really great resources
+to continue exploring the language.
+
+- Elixir-Lang Getting Started [Tutorial][getting-started]
+- The 30 Days of Elixir [Repository][30-days]
+- Learning X in Y Minutes: [Where X = Elixir][learnx] 
+- The [Elixir Cheat Sheet][cheatsheet]
