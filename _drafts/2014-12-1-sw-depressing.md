@@ -8,10 +8,22 @@ category: commentary
 comments: false
 ---
 
-Recently I was watching a recording of Stephen Kell's talk at strange loop this year, titled
-["Liberating the Smalltalk lurking in C and Unix"](lib-sml) (video available [here](lib-sml-vid)).
-The talk was great, I recommend taking some time out to sit down to watch it.
+<!--
 
+Post Outline:
+
+- Introduction to the idea
+- Discussion of the point
+- Examples of duplications
+- Discussion of the fact that we can't fix the problem.
+- Call to not fork, call to work together.
+- Conclusion
+
+--!>
+
+Recently I was watching a recording of Stephen Kell's talk at the Strange Loop conference this year, it was titled
+["Liberating the Smalltalk lurking in C and Unix"](lib-sml) (video available [here](lib-sml-vid)).
+The talk is great, I recommend taking some time out to sit down to watch it.
 
 As I listened to the speaker discuss the many interoperability problems between languages,
 a feeling  which had been lying dormant in me for a long while surfaced once again.
@@ -30,11 +42,10 @@ The amount of duplicated effort between the millions of software project in exis
 It doesn't matter if it's at the hardware, operating system, language, library, or even the application level.
 We duplicate, re-build, and regress everything. Constantly.
 
-TODO: Examples - linux distros, languages, bsd variants.
-----
+<!--
+TODO: Examples - Linux distributions, languages, variants.
+--!>
 
-##There is no fix##
-
-<!-- Our Sources -->
+<!-- The Sources -->
 [lib-sml]: https://thestrangeloop.com/sessions/liberating-the-smalltalk-lurking-in-c-and-unix
 [lib-sml-vid]: https://www.youtube.com/watch?v=LwicN2u6Dro
