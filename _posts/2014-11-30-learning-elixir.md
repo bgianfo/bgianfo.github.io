@@ -18,6 +18,7 @@ comments: false
 [30-days]: https://github.com/seven1m/30-days-of-elixir
 [learnx]: http://learnxinyminutes.com/docs/elixir/
 [cheatsheet]: http://media.pragprog.com/titles/elixir/ElixirCheat.pdf
+[howistart]: https://howistart.org/posts/elixir/1
 
 ##Intro##
 Elixir has been on my radar for about a year now, however despite my best effort I haven't had a chance to take a thorough look yet.
@@ -179,6 +180,7 @@ That wasn't so bad, I like the pipelining syntax. It seems similiar to the synta
 If you are on board with Elixir and want to continue on your own Elixir journey there are a couple of really great resources
 to continue exploring the language.
 
+- [How I Start: Elixir][howistart]
 - Elixir-Lang Getting Started [Tutorial][getting-started]
 - The 30 Days of Elixir [Repository][30-days]
 - Learning X in Y Minutes: [Where X = Elixir][learnx] 
