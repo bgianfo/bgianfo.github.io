@@ -2,7 +2,7 @@
 layout: post
 title: "Learning Elixir"
 excerpt: "We attempt to start learning the  elixir language."
-tags: ["software", "elixar", "programming langauges"]
+tags: ["software", "elixir", "programming languages"]
 comments: false
 ---
 
@@ -22,7 +22,7 @@ comments: false
 
 ##Intro##
 Elixir has been on my radar for about a year now, however despite my best effort I haven't had a chance to take a thorough look yet.
-I decided i've been waiting long enough, I just need to sit down and try to hack out some code.
+I decided I've been waiting long enough, I just need to sit down and try to hack out some code.
 If you haven't looked into the language yet it appears [very cool on paper][wiki-source]:
 
 > Elixir is a functional, concurrent, general-purpose programming language built atop the
@@ -174,7 +174,7 @@ iex(13)> 1..999 |> Stream.filter(multiples) |> Enum.sum
 <redacted-from-article>
 {% endhighlight %}
 
-That wasn't so bad, I like the pipelining syntax. It seems similiar to the syntax used in ML based language, like F#/OCaml.
+That wasn't so bad, I like the pipelining syntax. It seems similar to the syntax used in ML based language, like F#/OCaml.
 
 ## Resources ##
 If you are on board with Elixir and want to continue on your own Elixir journey there are a couple of really great resources
