@@ -2,8 +2,8 @@
 
 title:            bjg.io
 locale:           en_US
-url:              http://bjg.io
-#url:              http://lilmama.cloudapp.net:4000
+#url:              http://bjg.io
+url:              http://lilmama.cloudapp.net:4000
 
 
 # Jekyll configuration
@@ -31,7 +31,7 @@ owner:
   avatar: bio-photo.jpg
   bio: "Engineer @ Microsoft"
   email: b.gianfo@gmail.com
-  disqus-shortname: 
+  disqus-shortname: bjgio
   twitter: realrbman
   facebook: gianforcaro
   reddit: realrbman
