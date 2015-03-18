@@ -5,6 +5,7 @@ modified: 2014-09-20
 excerpt: "Fun with hypervisors."
 tags: [linux, xen, azure]
 category: virtualization
+comments: true
 ---
 It's super easy, just try to install the Xen HyperVisor on the Ubuntu 14.0 Image.
 

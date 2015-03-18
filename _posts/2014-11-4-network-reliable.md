@@ -5,7 +5,7 @@ excerpt: "We an awesome ACM article."
 tags: ["distributed systems", "link post", "article"]
 category: distributed-systems
 link: http://queue.acm.org/detail.cfm?id=2655736
-comments: false
+comments: true
 ---
 <a href="http://queue.acm.org/detail.cfm?id=2655736">
 <img style="float:right; margin-left: 10px; margin-bottom: -10px;" src="/images/network-reliable-thumb.png" />

@@ -3,7 +3,7 @@ layout: post
 title: "Learning Elixir"
 excerpt: "We attempt to start learning the  elixir language."
 tags: ["software", "elixir", "programming languages"]
-comments: false
+comments: true
 ---
 
 <!-- The Sources -->
