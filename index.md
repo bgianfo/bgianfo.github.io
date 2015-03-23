@@ -1,5 +1,5 @@
 ---
 layout: home
-excerpt: "Home page of the site."
+excerpt: "Brian Gianforcaro - bjg.io"
 tags: [blog, home]
 ---

@@ -33,20 +33,20 @@ owner:
   email: b.gianfo@gmail.com
   disqus-shortname: bjgio
   twitter: realrbman
-  facebook: gianforcaro
-  reddit: realrbman
+  facebook: #gianforcaro
+  reddit: #realrbman
   google:
-    plus: BrianGianforcaro
+    plus: #BrianGianforcaro
     analytics: UA-105771-3
     verify: 
     ad-client: 
     ad-slot: 
   bing-verify: 
   github: bgianfo
-  stackoverflow: 3415/brian-gianforcaro
+  stackoverflow: #3415/brian-gianforcaro
   linkedin: bgianf
   instagram: #bgianfo
-  lastfm: realrbman
+  lastfm: #realrbman
   tumblr: #username
   pinterest: #username
   foursquare: #username
@@ -56,7 +56,7 @@ owner:
   soundcloud: #username
   keybase: bjg
   hackernews: bjg
-  coinbase: bjg
+  coinbase: #bjg
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "thumbnail.sh"]
