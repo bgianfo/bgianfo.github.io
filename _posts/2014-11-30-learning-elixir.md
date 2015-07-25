@@ -135,7 +135,7 @@ iex(8)> 1..1000 |> Stream.filter
 {% endhighlight %}
 
 Need to figure out how to write a lambda, lets try to filter out odd numbers..
-one of the map examples on in the docs page uses this syntax:
+one of the map examples in the docs page uses this syntax:
 
 {% highlight elixir tabsize=4 %}
     fn x -> x*2 end
@@ -152,7 +152,7 @@ iex(8)> 1..1000 |> Stream.filter(fn x -> rem(x,2 == 0) end)
     (elixir) lib/enum.ex:666: Enum.filter/2
 {% endhighlight %}
 
-I would have thought that would have worked... wait the parenthesis don't look right...
+I would have thought that would have worked... wait the parenthesis don't look right.
 I forgot to properly close the rem(..)!
 
 {% highlight tcsh tabsize=4 %}
