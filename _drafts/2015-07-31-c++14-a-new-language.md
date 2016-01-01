@@ -12,7 +12,8 @@ comments: true
 
 ##Intro##
 
-#Flavors#
+#Flavor#
+
 {% highlight cpp linenos %}
 enum class FlavorType
 {
@@ -24,6 +25,7 @@ enum class FlavorType
 {% endhighlight %}
 
 #Cones#
+
 {% highlight cpp linenos %}
 enum class ConeType
 {
@@ -35,8 +37,10 @@ enum class ConeType
 
 
 ##Ice Cream##
+
 {% highlight cpp linenos %}
-// Provide a factory for creating IceCream's.
+
+// Provide a representation of IceCream's.
 //
 class IceCream final
 {
@@ -73,7 +77,8 @@ protected:
 }
 {% endhighlight %}
 
-##Ice Cream Factory##
+##Ice Cream Factory:##
+
 {% highlight cpp linenos %}
 // Provide a factory for caching types of ice cream's.
 //
