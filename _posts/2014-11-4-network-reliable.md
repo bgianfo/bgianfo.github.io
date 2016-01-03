@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Article: The Network is Reliable"
-excerpt: "We an awesome ACM article."
+excerpt: "We take a look at an awesome ACM article."
 tags: ["distributed systems", "link post", "article"]
 category: distributed-systems
 link: http://queue.acm.org/detail.cfm?id=2655736
