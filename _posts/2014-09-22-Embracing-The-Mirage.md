@@ -2,7 +2,7 @@
 layout: post
 title: "Embracing The Mirage [Part One]"
 modified: 2014-10-20
-excerpt: "Jumping into the World of Unikernels."
+excerpt: "We jump into the World of Unikernels."
 tags: [openmirage, unikernels, learning, ocaml]
 category: systems
 comments: true
