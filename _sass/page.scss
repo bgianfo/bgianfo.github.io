@@ -254,15 +254,12 @@ $button-size: 1.5rem;
 	}
 	article {
 		h2 {
-			margin-bottom: 4px;
+			margin-bottom: -10px;
 			@include font-rem(20);
-			&.link-post {
-				margin-bottom: 0px + $doc-line-height;
-				margin-bottom: 0rem + ($doc-line-height / $doc-font-size);
-			}
 		}
 		p {
 			@include font-rem(14);
+			margin-bottom: 15px;
 		}
 		p+p {
 			text-indent: 0;
