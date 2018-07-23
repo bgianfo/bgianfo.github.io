@@ -2,18 +2,34 @@
 
 title:            bjg.io
 locale:           en_US
-baseurl:          http://bjg.io
+#baseurl:          http://bjg.io
+baseurl: http://127.0.0.1:4000
 
 # Jekyll configuration
 
+paginate:    5
 permalink:   /:categories/:title/
 markdown:    kramdown
 highlighter: pygments
 sass:
   sass_dir: _sass
   style: compressed
-gems:
+
+plugins:
   - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-archives
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-font-awesome-sass
+
+# Plugin configs
+#
+jekyll-archives:
+  enabled: all
+
+font-awesome:
+  assets: true
 
 kramdown:
   auto_ids: true
@@ -22,6 +38,10 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: false
 
+remote_theme: chesterhow/tale
+#remote_theme: nielsenramon/chalk
+#remote_theme: yous/whiteglass
+#remote_theme: heiswayi/textlog
 
 # Site owner
 owner:
@@ -30,7 +50,8 @@ owner:
   bio: "Engineer @ Microsoft"
   email: b.gianfo@gmail.com
   disqus-shortname: bjgio
-  twitter: realrbman
+  github: bgianfo
+  twitter: bgianf
   facebook: #gianforcaro
   reddit: #realrbman
   google:
@@ -40,10 +61,9 @@ owner:
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: bgianfo
   stackoverflow: #3415/brian-gianforcaro
   linkedin: bgianf
-  instagram: #bgianfo
+  instagram: bgianfo
   lastfm: #realrbman
   tumblr: #username
   pinterest: #username
@@ -57,4 +77,4 @@ owner:
   coinbase: #bjg
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "thumbnail.sh", "Guardfile"]
+exclude: [ "README.md", "thumbnail.sh", "Guardfile", "Gemfile"]

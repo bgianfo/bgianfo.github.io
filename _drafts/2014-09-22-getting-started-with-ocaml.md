@@ -21,7 +21,7 @@ MSYS2 provides three environments:
 
 For the OCaml build you should select correct batch file described below.
 
-##32-bit build
+## 32-bit build
 
 Execute mingw32_shell.bat to run MSYS2 for a 32-bit system.
 
@@ -35,7 +35,7 @@ To check the installation was successful, type: gcc -v.
 
 The target should be: i686-w64-mingw32.
 
-##64-bit build
+## 64-bit build
 
 Execute mingw64_shell.bat to run MSYS2 for a 64-bit system.
 
@@ -49,7 +49,7 @@ To check the installation was successful, type: gcc -v.
 
 The target should be: i686-w64-mingw32.
 
-#Building Ocaml with MSYS2
+# Building Ocaml with MSYS2
 {% highlight tcsh tabsize=4 %}
 ./configure
 make
@@ -75,5 +75,3 @@ $ make install
 $ make libinstall
 
 {% endhighlight %}
-
-

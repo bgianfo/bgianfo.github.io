@@ -10,9 +10,9 @@ comments: true
 [std-draft]: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2014/n4296.pdf
 [rvalue-ex]: http://thbecker.net/articles/rvalue_references/section_01.html
 
-##Intro##
+# Intro
 
-#Flavor#
+## Flavor
 
 {% highlight cpp linenos %}
 enum class FlavorType
@@ -24,7 +24,7 @@ enum class FlavorType
 }
 {% endhighlight %}
 
-#Cones#
+## Cones
 
 {% highlight cpp linenos %}
 enum class ConeType
@@ -36,7 +36,7 @@ enum class ConeType
 {% endhighlight %}
 
 
-##Ice Cream##
+## Ice Cream
 
 {% highlight cpp linenos %}
 
@@ -77,7 +77,7 @@ protected:
 }
 {% endhighlight %}
 
-##Ice Cream Factory:##
+## Ice Cream Factory
 
 {% highlight cpp linenos %}
 // Provide a factory for caching types of ice cream's.
@@ -112,7 +112,7 @@ class IceCreamFactory final
 }
 {% endhighlight %}
 
-## Resources ##
+# Resources
 - [C++15 Working Draft][std-draft]
 - [RValue References Explained][rvalue-ex]
 

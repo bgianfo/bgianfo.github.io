@@ -3,6 +3,6 @@ guard 'jekyll-plus', :serve => true, :drafts => true, :unpublished => true, :fut
   ignore /^_site/
 end
 
-guard 'livereload', :apply_css_live => true do
-  watch /.*/
-end
+#guard 'livereload', :apply_css_live => true do
+#  watch /.*/
+#end
