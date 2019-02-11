@@ -1,4 +1,4 @@
-
 #Instructions:#
+
 - bundle
-- guard
+- jekyll livereload
