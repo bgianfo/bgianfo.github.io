@@ -4,14 +4,15 @@ body {
 	color: $text-color;
 }
 #color_bar {
-	height: 14px;
-	background:#000000;
-	display: block;
+	height: 18px;
+	background:#E8AE69;
+	display: block
 }
 .navigation-wrapper {
 	@include container;
-	padding: 2em 0 1em;
+	padding: 1.5em 0 0em;
 	font-family: $heading-font;
+	font-color: $black;
 	font-weight: 700;
 	text-transform: uppercase;
 	@include clearfix;
@@ -159,8 +160,8 @@ $button-size: 1.5rem;
 .nav .navtoogle {	
 	@include font-rem(18);
 	font-weight: normal;
-	background-color: $black;
-	color: $white;	
+	background-color: $body-color;
+	color: $textcolor;	
 	border: none;
 	cursor: pointer;
 	@media #{$small} {
