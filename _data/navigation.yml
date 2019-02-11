@@ -1,13 +1,19 @@
 # Site navigation links
 
-- title: All Posts
+- title: Archive
   url: /posts/
-
-- title: Reading List
-  url: /papers/
 
 - title: About
   url: /about/
 
 - title: <i class="fa fa-rss"></i>
   url: http://feeds.feedburner.com/bjgio
+
+- title: <i class="fab fa-twitter"></i>
+  url: http://twitter.com/bgianf
+
+- title: <i class="fab fa-github"></i> 
+  url: http://github.com/bgianfo
+
+- title: <i class="far fa-envelope"></i> 
+  url: mailto:b.gianfo@gmail.com
