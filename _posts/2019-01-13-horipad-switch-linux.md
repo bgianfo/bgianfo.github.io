@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mystery: HORIPAD for the switch controller not working with Steam on Linux?"
+title: "Mystery: HORIPAD switch controller not working with Steam on Linux?"
 excerpt: "Delving into usb devices."
 tags: ["linux", "switch"]
 category: guide

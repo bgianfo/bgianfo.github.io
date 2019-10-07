@@ -20,7 +20,7 @@ comments: true
 [cheatsheet]: http://media.pragprog.com/titles/elixir/ElixirCheat.pdf
 [howistart]: https://howistart.org/posts/elixir/1
 
-##Intro##
+## Intro
 Elixir has been on my radar for about a year now, however despite my best effort I haven't had a chance to take a thorough look yet.
 I decided I've been waiting long enough, I just need to sit down and try to hack out some code.
 If you haven't looked into the language yet it appears [very cool on paper][wiki-source]:
@@ -37,7 +37,7 @@ I have a little bit of familiarity with Erlang, but besides that this is the fir
 I've actually looked into the Elixir syntax. So the rest of this post will be entirely,
 unfiltered stream of consciousness.
 
-##Trying Out Some Code##
+## Trying Out Some Code
 Lets see if we can use Elixir to solve the first problem on the [Project Euler][pjeu] site.
 
 > **Multiples of 3 and 5**:
@@ -176,7 +176,7 @@ iex(13)> 1..999 |> Stream.filter(multiples) |> Enum.sum
 
 That wasn't so bad, I like the pipelining syntax. It seems similar to the syntax used in ML based language, like F#/OCaml.
 
-## Resources ##
+## Resources
 If you are on board with Elixir and want to continue on your own Elixir journey there are a couple of really great resources
 to continue exploring the language.
 
