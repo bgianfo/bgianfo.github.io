@@ -28,7 +28,7 @@ on a pointer to the rundown reference.
 void ExInitializeRundownProtection(PEX_RUNDOWN_REF RunRef);
 ```
 
-Next we have the two apis for gaining access to the rundown reference
+Next we have the two API's for gaining access to the rundown reference
 __ExAcquireRundownProtection__ and __ExReleaseRundownProtection__. 
 __ExAcquireRundownProtection__ returns __true__ if the acquisition was successful
 and control flow can continue on and access the resource. If it returned
@@ -51,16 +51,16 @@ void ExRundownCompleted(PEX_RUNDOWN_REF RunRef);
 
 ## Discussion
 
-I like __run-down protection__ because it's a basic extension of atomic
+I like __run-down protection__ because it's just a extension of atomic
 [reference counting][ref-count-link]. Acquisition of run-down protection
 is just an increment of the internal reference count with a special case
-to void incrementing a rundown reference, and release is just a decrement
-of the reference count with the extension to signal the waiter if that is
-required. This simple extension results in a powerful primitive, which
-provides a clean solution to a common problem. In a system without run-down
-protection you end up attempting to play tricks with reference counts and
-compromising that abstraction, in ways that ultimately just make your system
-harder to reason about.
+to fail the request when the reference count is being run-down. Release
+is just a decrement of the reference count with the extension to signal
+a waiter if that is required. This simple extension results in a powerful
+primitive, which provides a clean solution to a common problem. In a system
+without run-down protection you end up attempting to play tricks with reference
+counts and compromising that abstraction, in ways that ultimately just make
+your system harder to reason about.
 
 [run-down-link]: https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/run-down-protection
 [nt-kernel-link]: https://en.wikipedia.org/wiki/Windows_NT
