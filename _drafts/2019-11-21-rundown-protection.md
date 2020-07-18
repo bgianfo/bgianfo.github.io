@@ -1,22 +1,48 @@
 ---
 layout: post
-title: "Inside Rundown Protection"
-excerpt: "We attempt to start learning the  elixir language."
-tags: ["software", "rust", "systems programming"]
-comments: true
+title: "Inside NT Rundown Protection"
+excerpt: "Digging into systems internals."
+tags: ["software", "C", "rust", "systems programming"]
+comments: false
 ---
 
 ## Background
 
-Through my work, I've been exposed to many different kinds of synchronization primitives.
-If you had to ask me which one stood out over the others, I think I'd say the concept of
-[__Run-Down Protection__][run-down-link] which I was first exposed to when working with
-the [NT kernel][nt-kernel-link].
+Through my work, I've been exposed to a variety of synchronization primitives.
+However once I learned about [__Run-Down Protection__][run-down-link] I was enamored
+by how simple and elegant of a solution it was. I was first exposed to it when working
+on a project which runs in the [NT Kernel][nt-kernel-link].
 
-Run-Down Protection is useful when you are attempting to do something like destroy a shared
-resource. You need a way of guarantee access to the resource during it's usage, but also
-guarantee that no one is using the resource when you are attempting to destroy it, and you
-can deny future access to the resource after it's destruction.
+Run-Down Protection is useful when you are attempting to manage the lifetime of a
+resource which is shared between components. It provides the following capabilities.
+
+* Guarantee's a resource is accessible for the duration of it's usage.
+* Guarantee's that no one is using the resource when you are attempting to destroy it.
+* Guarantee's once destroyed the resource remains inaccessilble until explicitly re-initialized.
+* The API is non-blocking.
+
+## Data Structure
+
+Run-down Protection is implemented in the Kernel, but is exposed pubickly thought the windows
+driver SDK so that driver developers can use the facility in their third party drivers.
+
+Using the windows driver SDK we can see how NT defines the EX_RUNDOWN_REF struct, which is the
+key datastructure in the Run-down protection implementation.
+
+```c
+typedef struct _EX_RUNDOWN_REF
+{
+#define EX_RUNDOWN_ACTIVE      0x1
+#define EX_RUNDOWN_COUNT_SHIFT 0x1
+#define EX_RUNDOWN_COUNT_INC   (1<<EX_RUNDOWN_COUNT_SHIFT)
+    union {
+        __volatile ULONG_PTR Count;
+        __volatile PVOID Ptr;
+    };
+} EX_RUNDOWN_REF, *PEX_RUNDOWN_REF;
+```
+
+We see that we have a union of a count of some sort, and a void pointer.
 
 ## API
 
@@ -62,6 +88,10 @@ without run-down protection you end up attempting to play tricks with reference
 counts and compromising that abstraction, in ways that ultimately just make
 your system harder to reason about.
 
+If you squint, run-down protection looks a bit like a specialization of a
+reader writer lock.
+
 [run-down-link]: https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/run-down-protection
 [nt-kernel-link]: https://en.wikipedia.org/wiki/Windows_NT
 [ref-count-link]: https://en.wikipedia.org/wiki/Reference_counting
+[reactos-link]: https://github.com/reactos/reactos/blob/master/ntoskrnl/ex/rundown.c

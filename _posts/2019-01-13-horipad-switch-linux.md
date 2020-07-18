@@ -1,15 +1,15 @@
 ---
 layout: post
 title: "Mystery: HORIPAD switch controller not working with Steam on Linux?"
-excerpt: "Delving into usb devices."
-tags: ["linux", "switch"]
+excerpt: "Delving into USB devices."
+tags: ["Linux", "switch"]
 category: guide
 comments: true
 ---
 
 I just picked up a [HORIPAD][horipad-link] for the Switch.
 Hoping I could use it with Steam on my Linux box in addition to the switch, I plugged it into my system running the 5.0-rc1 kernel.
-It was a bit to my surprise, but it showed up as a recognised device:
+It was a bit to my surprise, but it showed up as a recognized device:
 
 {% highlight tcsh tabsize=4 %}
 $ dmesg
