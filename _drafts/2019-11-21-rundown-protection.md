@@ -10,8 +10,8 @@ comments: false
 
 Through my work, I've been exposed to a variety of synchronization primitives.
 However once I learned about [__Run-Down Protection__][run-down-link] I was enamored
-by how simple and elegant of a solution it was. I was first exposed to it when working
-on a project which runs in the [NT Kernel][nt-kernel-link].
+by how simple and elegant it was. I was first exposed to it when working
+on a project developing a driver which runs on the [NT Kernel][nt-kernel-link].
 
 Run-Down Protection is useful when you are attempting to manage the lifetime of a
 resource which is shared between components. It provides the following capabilities.
@@ -23,11 +23,11 @@ resource which is shared between components. It provides the following capabilit
 
 ## Data Structure
 
-Run-down Protection is implemented in the Kernel, but is exposed pubickly thought the windows
-driver SDK so that driver developers can use the facility in their third party drivers.
+Run-down Protection is implemented in the Kernel, but is exposed pubicly through the windows
+SDK so that developers can use the facility in their third party drivers.
 
-Using the windows driver SDK we can see how NT defines the EX_RUNDOWN_REF struct, which is the
-key datastructure in the Run-down protection implementation.
+Using the publicly available windows driver SDK we can see how NT defines the EX_RUNDOWN_REF
+struct, which is the datastructure at the center of Run-down protection APIs.
 
 ```c
 typedef struct _EX_RUNDOWN_REF
@@ -42,16 +42,16 @@ typedef struct _EX_RUNDOWN_REF
 } EX_RUNDOWN_REF, *PEX_RUNDOWN_REF;
 ```
 
-We see that we have a union of a count of some sort, and a void pointer.
+We see that the Run-down struct contains a union of an unsigned count, and a void pointer.
 
 ## API
 
-The rundown protection API is broken down into 5 pieces.
-First you have initialization which is done by calling __ExInitializeRundownProtection__
-on a pointer to the rundown reference.
+The rundown protectio API is broken down into 5 pieces.
+The first of which is initialization, which is done by calling __ExInitializeRundownProtection__
+on a pointer to the rundown reference struct.
 
 ```c
-void ExInitializeRundownProtection(PEX_RUNDOWN_REF RunRef);
+VOID ExInitializeRundownProtection(PEX_RUNDOWN_REF RunRef);
 ```
 
 Next we have the two API's for gaining access to the rundown reference
@@ -59,20 +59,28 @@ __ExAcquireRundownProtection__ and __ExReleaseRundownProtection__.
 __ExAcquireRundownProtection__ returns __true__ if the acquisition was successful
 and control flow can continue on and access the resource. If it returned
 __false__ then the resource has been run-down and it is no longer safe
-to access. If you successfully acquired rundown protection then you need
-to call __ExReleaseRundownProtection__ when your access to the resource is complete.
+to access.
 
 ```c
 BOOLEAN ExAcquireRundownProtection(PEX_RUNDOWN_REF RunRef);
-void ExReleaseRundownProtection(PEX_RUNDOWN_REF RunRef);
+```
+
+If you successfully acquired rundown protection then you need
+to call __ExReleaseRundownProtection__ when your access to the resource is complete.
+
+```c
+VOID ExReleaseRundownProtection(EX_RUNDOWN_REF RunRef);
 ```
 
 Finally we have the API's used to actually run-down a resource. These are 
 __ExWaitForRundownProtectionRelease__ and __ExRundownCompleted__. 
 
 ```c
-void ExWaitForRundownProtectionRelease(PEX_RUNDOWN_REF RunRef);
-void ExRundownCompleted(PEX_RUNDOWN_REF RunRef); 
+VOID ExWaitForRundownProtectionRelease(PEX_RUNDOWN_REF RunRef);
+```
+
+```c
+VOID ExRundownCompleted(PEX_RUNDOWN_REF RunRef);
 ```
 
 ## Discussion
@@ -89,9 +97,13 @@ counts and compromising that abstraction, in ways that ultimately just make
 your system harder to reason about.
 
 If you squint, run-down protection looks a bit like a specialization of a
-reader writer lock.
+[reader writer lock][rw-lock-link].
+
+## Implementing Run Down Protection In rust
 
 [run-down-link]: https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/run-down-protection
 [nt-kernel-link]: https://en.wikipedia.org/wiki/Windows_NT
 [ref-count-link]: https://en.wikipedia.org/wiki/Reference_counting
 [reactos-link]: https://github.com/reactos/reactos/blob/master/ntoskrnl/ex/rundown.c
+[rw-lock-link]: https://en.wikipedia.org/wiki/Readers%E2%80%93writer_lock
+[rust-link]: https://github.com/bgianfo/rust-run-down
