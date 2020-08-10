@@ -8,9 +8,10 @@ comments: true
 
 ## Background
 
-At my day job I was working on a problem where I had to dig into the internals
-of the Python runtime running on Windows. While I was working on this I
-learned a few tips and tricks that might come in handy for someone else. To start
+At work I was debugging and issue where I had to dig into the internals
+of the Python runtime running on Windows. Along the way I
+learned a few tips and tricks that might come in handy for someone else. So I figured
+I'd do a quick little write up to share the knowledge. To start
 you'll want to debug python with the windows system debugger: [WinDbg](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/getting-started-with-windbg).
 Debugging runtime like Python is convenient in Visual Studio, but in the end it's
 not as powerful and features available in WinDbg will make things a lot easier.

@@ -2,7 +2,7 @@
 
 title:            bjg.io
 locale:           en_US
-baseurl:          https://bjg.io
+#baseurl:          https://bjg.io
 
 # Jekyll configuration
 
