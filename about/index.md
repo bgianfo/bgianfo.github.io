@@ -12,14 +12,11 @@ In the past I've worked at [MIT Lincoln Labs](https://www.ll.mit.edu) on Weather
 ### Elsewhere
 * Email: [b.gianfo@gmail.com](mailto:b.gianfo@gmail.com)
 * [Keybase](http://keybase.io/bjg) - Secure Communication
-* [Coinbase](http://coinbase.com/bjg) - Send Me Money!
+* [Lobste.rs](https://lobste.rs/u/bjg) - News
 * [Hacker News](http://news.ycombinator.com/user?id=bjg) - News
 * [Reddit](http://reddit.com/u/realrbman) - News
 * [Twitter](http://twitter.com/realrbman) - Social
-* [Facebook](http://facebook.com/gianforcaro) - Social
-* [Google](http://plus.google.com/+BrianGianforcaro) - Social
 * [LinkedIn](http://linkedin.com/in/bgianf) - Social
-* [Last.fm](http://lastfm.com/user/realrbman) - Music
 * [StackOverflow](http://stackoverflow.com/users/3415/brian-gianforcaro) - Q/A
 
 ### Resume
