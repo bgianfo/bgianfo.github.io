@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SerenityOS developer interview: Me"
+title: "SerenityOS Developer Interview: Me!"
 excerpt: "Talking about my work on SerenityOS"
 tags: ["SerenityOS", "youtube"]
 category: interview
