@@ -7,8 +7,8 @@ category: interview
 comments: false
 ---
 
-In November of 2021 Andras Kling asked if he could interview me for [his youtube channel](https://www.youtube.com/c/AndreasKling). 
-He has a [wonderful series](https://www.youtube.com/playlist?list=PLMOpZvQB55bdDy0Lgn9fG2c7NEK_rkkkQ)
+In November of 2021 Andreas Kling asked if he could interview me for [his youtube channel](https://www.youtube.com/c/AndreasKling). 
+He has a [very entertaining series](https://www.youtube.com/playlist?list=PLMOpZvQB55bdDy0Lgn9fG2c7NEK_rkkkQ)
 where he interviews developers who contribute to the SerenityOS project. 
 
 It was wonderful talking with Andreas, I really enjoyed the experience.
