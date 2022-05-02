@@ -7,23 +7,22 @@ comments: false
 ---
 My name is Brian Gianforcaro. I'm a Software Engineer in Seattle, Washington.
 I work for Microsoft on both their Box and Cloud Relational Database Products: <i class="fa fa-database"></i> [SQL Server](http://en.wikipedia.org/wiki/Microsoft_SQL_Server) & <i class="fa fa-cloud"></i> [SQL Azure](http://en.wikipedia.org/wiki/SQL_Azure).
-In the past I've worked at [MIT Lincoln Labs](https://www.ll.mit.edu) on Weather Predictive software, as well as interning at IBM in the Lotus Software group.
+In the past I've worked at [MIT Lincoln Labs](https://www.ll.mit.edu) on weather predictive software, as well as interning at IBM in the Lotus Software group.
 
 ### Elsewhere
 * Email: [b.gianfo@gmail.com](mailto:b.gianfo@gmail.com)
 * [Keybase](http://keybase.io/bjg) - Secure Communication
 * [Lobste.rs](https://lobste.rs/u/bjg) - News
 * [Hacker News](http://news.ycombinator.com/user?id=bjg) - News
-* [Reddit](http://reddit.com/u/realrbman) - News
-* [Twitter](http://twitter.com/realrbman) - Social
+* [Twitter](http://twitter.com/bgianf) - Social
 * [LinkedIn](http://linkedin.com/in/bgianf) - Social
 * [StackOverflow](http://stackoverflow.com/users/3415/brian-gianforcaro) - Q/A
 
 ### Resume
-My resume is available either as a [PDF](/images/resume.pdf) or as [Latex Source](https://github.com/bgianfo/resume).
+My resume is available here: [link](/images/resume.pdf).
 
-You can also view a version on my [Stack Overflow Careers Page](http://careers.stackoverflow.com/bg).
-
+<!--
+ or as [Latex Source](https://github.com/bgianfo/resume).
 ### Public Key
 
 <pre>
@@ -104,3 +103,4 @@ ptPSw7VoBhKmmSqSviYXJCH3npvX5yPbH7KKfJoyfQ==
 =WHhC
 -----END PGP PUBLIC KEY BLOCK-----
 </pre>
+-->
