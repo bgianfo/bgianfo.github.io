@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SerenityOS Office Hours (with freinds)"
+title: "SerenityOS Office Hours (with friends!)"
 excerpt: "Talking with Andreas and Dániel about SerenityOS"
 tags: ["SerenityOS", "youtube"]
 category: interview
